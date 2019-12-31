@@ -1,9 +1,9 @@
 <!--pages/myTeacher/myTeacher.wxml-->
 <scroll-view>
 
-<wux-media thumb="http://47.100.39.201:80/test/image/yuner.jpg" title="林茂森" label="数学" bindtap="tap"></wux-media>
-<wux-media thumb="http://47.100.39.201:80/test/image/xiuzhi.jpg" title="张华阳" label="英语"></wux-media>
-<wux-media thumb="http://47.100.39.201:80/test/image/iu.jpg" title="黄俊朗" label="语文"></wux-media>
+<wux-media thumb="http://47.100.39.201:80/test/image/teacher.png" title="林茂森" label="数学" bindtap="tap"></wux-media>
+<wux-media thumb="http://47.100.39.201:80/test/image/teacher.png" title="张华阳" label="英语"></wux-media>
+<wux-media thumb="http://47.100.39.201:80/test/image/teacher.png" title="黄俊朗" label="语文"></wux-media>
 
 
 </scroll-view>

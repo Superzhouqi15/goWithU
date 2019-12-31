@@ -65,15 +65,25 @@ Page({
   },
   onClick: function () {
     console.log("toast")
-    wx.showToast({
-      title: '已提交注册信息',
-      duration: 1500
+    wx.request({
+      url: 'https://www.tuppy.pub/newTeacher',
+      method: 'POST',
+      data: {
+        "openId": app.globalData.openid
+      },
+      success: res => {
+        console.log(res)
+        wx.showToast({
+          title: '已提交注册信息',
+          duration: 1500
+        })
+        setTimeout(function () {
+          wx.switchTab({
+            url: '../course/course',
+          })
+        }, 1500)
+      },
     })
-    setTimeout(function () {
-      wx.switchTab({
-        url: '../course/course',
-      })
-    }, 1500)
 
     console.log("switch")
   }

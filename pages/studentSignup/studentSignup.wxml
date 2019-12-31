@@ -16,24 +16,24 @@
       <wux-field name="name" initialValue="">
         <wux-input label="姓名" />
       </wux-field>
-  </wux-cell>
- </wux-cell-group>
- <wux-cell-group >
+    </wux-cell>
+  </wux-cell-group>
+  <wux-cell-group>
     <wux-cell hover-class="none">
       <wux-field name="mail" initialValue="">
         <wux-input label="医院" />
       </wux-field>
-  </wux-cell>
- </wux-cell-group>
- <wux-cell-group >
+    </wux-cell>
+  </wux-cell-group>
+  <wux-cell-group>
     <wux-cell hover-class="none">
       <wux-field name="introduction" initialValue="">
         <wux-input label="个人介绍" />
       </wux-field>
-  </wux-cell>
- </wux-cell-group>
- <wux-white-space size="large" />
- <wux-wing-blank size="default">
- <wux-button block type="balanced" bind:click="onClick">注册</wux-button>
- </wux-wing-blank>
-  </view>
+    </wux-cell>
+  </wux-cell-group>
+  <wux-white-space size="large" />
+  <wux-wing-blank size="default">
+    <wux-button block type="balanced" bind:click="onClick">注册</wux-button>
+  </wux-wing-blank>
+</view>

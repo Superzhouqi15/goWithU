@@ -47,16 +47,7 @@ Page({
     console.log(app.globalData.identity)
     console.log(app.globalData.userInfo.openid)
     if (app.globalData.identity == "志愿者"){
-      wx.request({
-        url: 'https://www.tuppy.pub/newTeacher',
-        method: 'POST',
-        data: {
-          "openId": app.globalData.openid
-        },
-        success: res => {
-          console.log(res)
-        },
-      })
+     
       wx.navigateTo({
         url: '/pages/teacherSignup/teacherSignup',
       })

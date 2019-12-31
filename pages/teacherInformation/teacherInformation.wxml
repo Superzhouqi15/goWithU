@@ -2,7 +2,7 @@
 <view class="page">
   <view class="page__bd page__bd_spacing">
     <view class="image">
-      <wux-avatar size="large" src="http://47.100.39.201:80/test/image/yuner.jpg" scale="true" />
+      <wux-avatar size="large" src="http://47.100.39.201:80/test/image/teacher.png" scale="true" />
     </view>
     <text class="text">林茂森</text>
   </view>

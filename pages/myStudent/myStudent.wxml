@@ -1,9 +1,9 @@
 <!--pages/myStudent/myStudent.wxml-->
 <scroll-view>
 <wux-icon type="md-add-circle" color="#33cd5f" size="64" class="icon" bindtap="addStudent" />
-<wux-media thumb="http://47.100.39.201:80/test/image/yuner.jpg" title="王华" bindtap="tap"></wux-media>
-<wux-media thumb="http://47.100.39.201:80/test/image/xiuzhi.jpg" title="张小森"></wux-media>
-<wux-media thumb="http://47.100.39.201:80/test/image/iu.jpg" title="黄贵红" ></wux-media>
+<wux-media thumb="http://47.100.39.201:80/test/image/student.png" title="王华" bindtap="tap"></wux-media>
+<wux-media thumb="http://47.100.39.201:80/test/image/student.png" title="张小森"></wux-media>
+<wux-media thumb="http://47.100.39.201:80/test/image/student.png" title="黄贵红" ></wux-media>
 
 
 </scroll-view>
