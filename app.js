@@ -19,7 +19,7 @@ App({
         if (res.code) {
           console.log("res.code:" + res.code);
           wx.request({
-            url: 'https://www.tuppy.pub/getOpenId',
+            url: 'https://www.tuppy.com/getOpenId',
             method: 'POST',
             data:{
               "code": res.code

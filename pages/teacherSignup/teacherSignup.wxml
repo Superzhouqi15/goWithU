@@ -14,28 +14,28 @@
   <wux-cell-group title="输入个人信息">
     <wux-cell hover-class="none">
       <wux-field name="name" initialValue="">
-        <wux-input label="姓名" />
+        <wux-input label="姓名" bind:change="getName"/>
       </wux-field>
   </wux-cell>
  </wux-cell-group>
  <wux-cell-group >
     <wux-cell hover-class="none">
       <wux-field name="mail" initialValue="">
-        <wux-input label="邮箱" />
+        <wux-input label="邮箱" bind:change="getEmail"/>
       </wux-field>
   </wux-cell>
  </wux-cell-group>
  <wux-cell-group >
     <wux-cell hover-class="none">
       <wux-field name="workArea" initialValue="">
-        <wux-input label="工作单位" />
+        <wux-input label="工作单位" bind:change="getPlace"/>
       </wux-field>
   </wux-cell>
  </wux-cell-group>
  <wux-cell-group >
     <wux-cell hover-class="none">
       <wux-field name="introduction" initialValue="">
-        <wux-input label="个人介绍" />
+        <wux-input label="个人介绍" bind:change="getInformation"/>
       </wux-field>
   </wux-cell>
  </wux-cell-group>

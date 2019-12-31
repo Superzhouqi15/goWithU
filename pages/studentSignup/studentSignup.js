@@ -1,11 +1,25 @@
 // pages/studentSignup/studentSignup.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    Name:'',
+    Hospital:'',
+    Information:''
 
+  },
+  getName: function(e){
+    this.data.Name = e.detail.value;
+  },
+
+  getHospital: function(e){
+    this.data.Hospital= e.detail.value;
+  },
+  getInfomation: function(e){
+    this.data.Information = e.detail.value;
   },
 
   /**
@@ -63,13 +77,19 @@ Page({
   onShareAppMessage: function () {
 
   },
+
   onClick: function () {
+    console.log(this.data.Hospital)
     console.log("toast")
     wx.request({
-      url: 'https://www.tuppy.pub/newTeacher',
+      url: 'https://www.tuppy.com/newStudent',
       method: 'POST',
       data: {
-        "openId": app.globalData.openid
+        "OpenId": app.globalData.openid,
+        "Name": this.data.Name,
+        "Hospital": this.data.Hospital,
+        "Information": this.data.Information,
+
       },
       success: res => {
         console.log(res)
