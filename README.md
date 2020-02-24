@@ -1,2 +1,5 @@
-goWithU
-hello
+goWithU小程序是一款面向医院患儿的的教学小程序，旨在为了给医院患儿和志愿者一个沟通联系的平台
+
+前端是基于微信小程序开发
+后端是基于nginx,springboot,mongodb开发
+
